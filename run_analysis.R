@@ -58,3 +58,6 @@ TT_compact <- TT %>% # selecting data extracting data containing mean and std in
       group_by(Activity, Subject) %>% # grouping information by subects and activities
       summarize_all(mean) # Summarizig the means of all 
 
+#Getting the tidy set from the program it will write this file in wd.
+write.table(TT_compact, file = "TidySet.txt", row.names = FALSE)
+unlink(temp) 
