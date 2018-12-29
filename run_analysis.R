@@ -1,5 +1,4 @@
-setwd("D:/Users/bunty/Documents/LearningR/C4W4")
-#setwd("./R/C4W4/Proj") # Change this path to any work directory of yours
+setwd("./R/C4W4/Proj") # Change this path to any work directory of yours
 url1 <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 #Required packages for the program and may be more
