@@ -1,4 +1,4 @@
-# Run analysis code
+# Code_Book
 
 * The subjects for test and train are in different files. these files are read as vector file and then assembled into the X_Test and X_train files.
 * Column headers are also read as a character vector. This vector is labeled with activity lables before reading test and train data.
